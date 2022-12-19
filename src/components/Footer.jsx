@@ -1,6 +1,7 @@
 import Logo from "../images/Vector.svg";
 import { useContext } from "react";
 import { ContentContext } from "../App";
+import { Link } from "react-router-dom";
 function Footer() {
   const { footer } = useContext(ContentContext);
 
@@ -15,7 +16,9 @@ function Footer() {
           <p className="text-xl text-white">{footer.contact}</p>
         </div>
       </div>
-      <h2 className="px-40 text-xl text-white">{footer.toTop}</h2>
+      <Link to="/">
+        <h2 className="px-40 text-xl text-white">{footer.toTop}</h2>
+      </Link>
     </footer>
   );
 }
