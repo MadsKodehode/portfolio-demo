@@ -1,23 +1,10 @@
 import { BsArrowDown } from "react-icons/bs";
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import { ContentContext } from "../App";
-import { useLocation } from "react-router";
 
 function ProjectSection() {
   const { projects, hero } = useContext(ContentContext);
 
-  const location = useLocation();
-  console.log(location);
-  useEffect(() => {
-    if (location.hash) {
-      let elemement = document.getElementById(location.hash.slice(1));
-      if (elemement) {
-        elemement.scrollIntoView({ behavior: "smooth" });
-      }
-    } else {
-      window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-    }
-  }, [location]);
   return (
     <section
       id="projects"
