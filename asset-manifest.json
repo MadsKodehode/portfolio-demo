@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio-demo/static/css/main.f51155a3.css",
+    "main.js": "/portfolio-demo/static/js/main.6fd3a60a.js",
+    "static/media/MadsiTrappen.JPG": "/portfolio-demo/static/media/MadsiTrappen.e28d210c87f925de1a71.JPG",
+    "static/media/Vector.svg": "/portfolio-demo/static/media/Vector.3fc6466ff20e95277f712a2e6a58d931.svg",
+    "index.html": "/portfolio-demo/index.html",
+    "static/media/Mask.svg": "/portfolio-demo/static/media/Mask.ff4d821acd59bc6814d3.svg",
+    "main.f51155a3.css.map": "/portfolio-demo/static/css/main.f51155a3.css.map",
+    "main.6fd3a60a.js.map": "/portfolio-demo/static/js/main.6fd3a60a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f51155a3.css",
+    "static/js/main.6fd3a60a.js"
+  ]
+}
