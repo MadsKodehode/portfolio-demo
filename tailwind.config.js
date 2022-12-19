@@ -14,6 +14,7 @@ module.exports = {
       "orange-strong": "#FF9B3E",
       "blue-light": "#C8ECEC",
       white: "#ffffff",
+      hover: "#AFAFAF",
     },
   },
   plugins: [],

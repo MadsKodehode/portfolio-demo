@@ -18,11 +18,15 @@ function Header() {
         </div>
 
         <div className="flex justify-between w-52">
-          <Link to="/#projects">
-            <h5 className="text-white">{navlinks.projects}</h5>
+          <Link to="#Projekter">
+            <h5 className="text-white hover:text-hover transition-all">
+              {navlinks.projects}
+            </h5>
           </Link>
-          <Link to="/#about">
-            <h5 className="text-white">{navlinks.about}</h5>
+          <Link to="#Om">
+            <h5 className="text-white hover:text-hover transition-all">
+              {navlinks.about}
+            </h5>
           </Link>
         </div>
       </div>
